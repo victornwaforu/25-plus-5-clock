@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Roboto+Condensed:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #2c3a47;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 40px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container h1 {
+  margin: 0px;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
